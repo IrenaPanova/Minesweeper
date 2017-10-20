@@ -1,0 +1,105 @@
+body.minesweeper_game {
+    background-color: #212121;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    letter-spacing: 2px;
+    color: #ccc;
+}
+
+header {
+    font-size: 40px;
+    text-align: center;
+}
+
+body.minesweeper_game .container {
+    position: relative;
+    margin: auto;
+    /*width: 360px;*/
+}
+
+body.minesweeper_game #controls {
+    position: relative;
+    margin: auto;
+    height: 34px;
+    line-height: 34px;
+    padding: 10px 0;
+}
+
+#mines {
+    float: left;
+    width: 40%;
+}
+
+#timer {
+    float: right;
+    text-align: right;
+    width: 40%;
+}
+
+#winOrLose {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-size: 36px;
+    color: #13edc1;
+}
+
+#board {
+    border: 3px solid #444;
+    font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+    color: #181A1B;
+}
+
+.square {
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color: #a0a3a3;
+    border: 3px solid #444;
+    cursor: pointer;
+}
+
+.exposed {
+    background-color: #fcfcfc;
+    line-height: 30px;
+    font-size: 15px;
+    cursor: default;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flagged {
+    line-height: 30px;
+    font-size: 22px;
+    cursor: default;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bomb {
+    background-color: #D50000;
+}
+
+.buttons {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    width: 80px;
+    height: 32px;
+    margin: 0 2px;
+    line-height: 32px;
+    border: none;
+    vertical-align: top;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: #13edc1;
+    color: #07604e;
+    font-size: 13px;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 0 #07604e;
+    border-radius: 2px;
+    cursor: pointer
+}
